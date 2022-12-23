@@ -18,5 +18,5 @@ na de segundo plano ocorre quando a Activity não está visível e obviamente o 
  O Viwholder é uma abordagem utilizada para guardar um conjunto de views para que possam ser eficientemente acedidas e reutilizadas, quando necessário.
 A finalidade da classe ViewHolder é guardar as views.
 
-# O que é o Retrofit e por que utilizar ao invés de criar as chamadas manualmnete?
+# O que é o Retrofit e por que utilizar ao invés de criar as chamadas manualmente?
  O Retrofit é uma biblioteca desenvolvida pela Square que é utilizada como um REST Client no Android e Java. É utilizada na  biblioteca OkHttp para fazer os Http Requests. O Retrofit é mais viavel na utilização pois facilita na serialização dos objetos, na configuração, pois configura apenas o necessário para estabelecer uma cominucação, e a usabilidade por ser de forma mais prática para realizar uma requisição. por esses motivos é mais viável utiliza-lo ao que está criando várias funções para serializar os objetos.
